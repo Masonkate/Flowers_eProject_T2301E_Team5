@@ -2,72 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi tiết sản phẩm</title>
-    <!-- Thêm các tệp CSS của Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết sản phẩm</title>
 
-    <!-- Tùy chỉnh CSS -->
-    <link rel="stylesheet" href="Chitietsanpham_sln.css">
+  <!-- Tùy chỉnh CSS -->
+  <link rel="stylesheet" href="Chitietsanpham_sln.css">
 
-   <!-- Thanh điều hướng chính -->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Phần header -->
+  <header>
     <div class="container">
-      <!-- Logo cửa hàng -->
-      <a class="navbar-brand navbar-logo" href="#"><img src="Team5_Flower_Logo.png" alt="Logo"></a>
+      <div class="container header-container">
+        <!-- Phần logo (chiếm 20% diện tích) -->
+        <div class="logo">Logo của tôi</div>
 
-      <!-- Thanh tìm kiếm sản phẩm -->
-      <form class="form-inline navbar-search">
-        <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Tìm kiếm</button>
-      </form>
+        <!-- Phần thanh tìm kiếm (chiếm 60% diện tích) -->
+        <div class="search-bar">
+          <input type="text" class="search-input" placeholder="Tìm kiếm">
+          <button class="search-button">Tìm kiếm</button>
+        </div>
 
-      <!-- Logo giỏ hàng và tài khoản -->
-      <ul class="navbar-nav ml-auto navbar-icons">
-        <li class="nav-item">
-          <a class="nav-link" href="#"><img src="cart.png" alt="Giỏ hàng"></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><img src="account.png" alt="Tài khoản"></a>
-        </li>
-      </ul>
+        <!-- Phần biểu tượng giỏ hàng và tài khoản (chiếm 20% diện tích) -->
+        <div class="user-icons">
+          <i class="fa-duotone fa-shopping-cart"></i>
+          <span>Giỏ hàng</span>
+          <i class="fa-duotone fa-user"></i>
+          <span>Tài khoản</span>
+        </div>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Chủ đề</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+      </nav>
     </div>
-  </nav>
+  </header>
 
+  <!-- Phần body -->
 
- <!-- Thanh menu -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary custom-bg">
-  <div class="container">
-    <ul class="navbar-nav d-flex">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Trang chủ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Chủ đề</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sản phẩm</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Liên hệ</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-  
-
-
-
-</head>
-
-<body>
-
-</body>
+  <!-- Phần footer -->
+  <footer>
+    &copy; 2023 Website của tôi. All rights reserved.
+  </footer>
+  </body>
 
 </html>
-
-<!-- Thêm các tệp JavaScript của Bootstrap -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
